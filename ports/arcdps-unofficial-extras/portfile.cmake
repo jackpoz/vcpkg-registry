@@ -4,7 +4,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO jackpoz/arcdps_unofficial_extras_releases
     REF ab7fc8915c054257edefc30c95657d77ecfcbe41
-    SHA512 113dab74ca713eec7d00b8ce9005c2443fa5bbfd736c9a90a02e5c9b06f185307e9b27705f484b129e1976923afc74d390e3e242bfab70e53b855802b6a3d1f0
+    SHA512 05ababe3eb27ea4ff5a19e405ee5081555493dae3cc10c2303500afd715c437c782c5d52ca0b3e402e4fe1514e7d136b7cd5dc54917ceb372137e2eb95c324e5
     HEAD_REF features/asan
 )
 
