@@ -3,8 +3,8 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO jackpoz/arcdps_unofficial_extras_releases
-    REF 7cf97fcd17df36b2fd9c57114e1333c190ada3ee
-    SHA512 929d25edab56ec840be94dd5a1a8769c572983780ea7320100695be554bf619cd7ffeeca9124a889808278350a30d00439f01e401d474b21acb94cbad476159c
+    REF 7711f22a4e8a571809ad1ddec0a1699251d637ca
+    SHA512 7e00d4b96324fed04100b840ead4216b5de55c717d6d2f94d5bff48073344227de886bde3948c63ce82afefa4ade50fb2d098f057a14ac058082db803708ca19
     HEAD_REF features/asan-wine
 )
 
