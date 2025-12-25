@@ -3,8 +3,8 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO jackpoz/arcdps-extension
-    REF f8ee0a378800b9a753b30813f463da44b3927b81
-    SHA512 f538495668ca3c9a022d7936684b05b1e66ffcb8fe78c3557798ada23e5ef904a3aed271c222a5c972b58fd54c37d638f00d58bb9fb1f944c259b5912e9da4a3
+    REF f9a83017f2e007d2537ac84e0034b73511c3f73c
+    SHA512 e29c3df5fff155c28a559d77b7da63908de9a04400789afd5a00c4ddee5c17b7c0d1969d80a723e5dadb21726b8eb791c07cfb9bfbdd87e2786c3bce2fca4d3e
     HEAD_REF features/EventSequencerSingleConsumer
 )
 
