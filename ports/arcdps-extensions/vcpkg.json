@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "arcdps-extension",
+  "version-string": "1.2.0-wip",
+  "dependencies": [
+    "magic-enum",
+    "nlohmann-json",
+    "gtest",
+	{
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+	{
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ],
+  "default-features": [
+    "imgui",
+    "unofficial-extras",
+    "curl"
+  ],
+  "features": {
+    "imgui": {
+      "description": "make imgui tools available",
+      "dependencies": [
+        "imgui"
+      ]
+    },
+    "unofficial-extras": {
+      "description": "make tools available, that depend on arcdps-unofficial-extras",
+      "dependencies": [
+        "arcdps-unofficial-extras"
+      ]
+    },
+    "curl":{
+      "description": "make tools available, that depend on curl",
+      "dependencies": [
+        "curl"
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "name": "imgui",
+      "version": "1.80#1"
+    }
+  ]
+}

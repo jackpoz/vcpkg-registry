@@ -3,6 +3,10 @@
     "arcdps-unofficial-extras": {
       "baseline": "1.28.1-asan-wine",
       "port-version": 0
+    },
+    "arcdps-extension": {
+      "baseline": "1.2.0-wip",
+      "port-version": 0
     }
   }
 }
