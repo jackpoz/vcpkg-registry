@@ -5,7 +5,7 @@
       "port-version": 0
     },
     "arcdps-extension": {
-      "baseline": "1.2.0-wip",
+      "baseline": "1.2.0",
       "port-version": 0
     }
   }
